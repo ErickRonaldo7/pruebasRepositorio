@@ -1,0 +1,131 @@
+:root {
+
+    --gris : grey;
+    --blanco: white;
+
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.encabezado  {
+
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 5rem;
+
+}
+
+.encabezado p{
+    font-size: 1.2rem;
+    padding: 1rem;
+    
+}
+.encabezadoContenido h1{
+
+
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.contenedortarjetas{
+
+    /*background-color: red;*/
+    width: 80%;
+    padding: 5rem;
+    margin: 0 auto;
+   
+    
+   
+ 
+ 
+}
+.contenedorCards{
+    background-color: rgb(40, 41, 51);
+    display: flex;
+  
+    
+    
+}
+.imagenes{
+
+    height: 100%;
+    width: auto;
+    margin-right: 2rem;
+    
+  
+    
+}
+.card{
+
+    background-color: rgb(78, 77, 77);
+    width: 95%;
+    height: 27rem;
+margin-top: 2rem;
+    display: flex;
+  
+   
+    justify-content: center;
+    border-radius: 2rem;
+
+}
+
+.contenido{
+    flex-direction: column;
+    /*background-color: blue;*/
+    display: flex;
+    margin-right: auto;
+    align-items: left   ;
+}
+
+.subtitulo{
+  
+    color: rgb(172, 170, 170);
+     font-family: 'Gill Sans', sans-serif;
+
+}
+
+.genero{
+    
+    color: white;
+    
+    font-weight: bold 700;
+     font-family: 'Gill Sans', sans-serif;
+    
+}
+
+.estado{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.nombre{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: bold;
+}
+ 
+
+.encabezadoContenido h1{
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+    text-align: center;
+}
+
+
